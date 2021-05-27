@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "901609669441",
+    "firebase_url": "https://ipaayos-mo-default-rtdb.firebaseio.com",
+    "project_id": "ipaayos-mo",
+    "storage_bucket": "ipaayos-mo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901609669441:android:bb6b61ff2f23a783b857c0",
+        "android_client_info": {
+          "package_name": "com.yqgon.flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901609669441-akab1jlua3uqaouidci8ifqkj6uslhin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4JdkT9m4amKa-RET_QSE2xfV1JLC7xHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901609669441-akab1jlua3uqaouidci8ifqkj6uslhin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
