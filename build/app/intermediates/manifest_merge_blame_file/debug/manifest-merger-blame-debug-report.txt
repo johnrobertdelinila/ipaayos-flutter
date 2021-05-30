@@ -83,8 +83,8 @@
 46        android:debuggable="true"
 47        android:icon="@mipmap/ic_launcher"
 47-->/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/android/app/src/main/AndroidManifest.xml:21:9-43
-48        android:label="service_app"
-48-->/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/android/app/src/main/AndroidManifest.xml:19:9-36
+48        android:label="Ipaayos mo"
+48-->/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/android/app/src/main/AndroidManifest.xml:19:9-35
 49        android:supportsRtl="true"
 49-->[com.facebook.android:facebook-android-sdk:5.5.1] /Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/96fab21b199076482cf19bd91bc541d4/facebook-android-sdk-5.5.1/AndroidManifest.xml:28:18-44
 50        android:usesCleartextTraffic="true" >

@@ -45,7 +45,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="service_app"
+        android:label="Ipaayos mo"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true" >
         <meta-data
