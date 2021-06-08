@@ -24,6 +24,31 @@ class User with ChangeNotifier implements Iterable {
   String iCardImage;
   bool isCustomer;
 
+  Map<String, dynamic> toJson() => {
+    'address': address,
+    'city':city,
+    'country':country,
+    'createdAt':createdAt,
+    'deviceId':deviceId,
+    'deviceToken':deviceToken,
+    'deviceType':deviceType,
+    'email':email,
+    'gender':gender,
+    'iCardImage':iCardImage,
+    'id':id,
+    'image':image,
+    'mobile':mobile,
+    'long':long,
+    'lat':lat,
+    'liveLat':liveLat,
+    'liveLong':liveLong,
+    'name':name,
+    'officeAddress':officeAddress,
+    'refCode':refCode,
+    'updatedAt':updatedAt,
+    'isCustomer':isCustomer
+  };
+
   User(
       {this.address,
       this.city,

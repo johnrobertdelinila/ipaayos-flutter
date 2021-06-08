@@ -5,6 +5,14 @@ class Notifications {
   String message;
   String date;
 
+  Map<String, dynamic> toJson() => {
+    'date':date,
+    'id':id,
+    'message':message,
+    'title':title,
+    'type':type,
+  };
+
   Notifications({
     this.date,
     this.id,

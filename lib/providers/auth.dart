@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart' as FirebaseAuth;
 import 'package:firebase_auth_ui/firebase_auth_ui.dart';
 import 'package:firebase_auth_ui/providers.dart';
@@ -14,9 +15,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:service_app/Global.dart';
 
 import 'contants.dart';
+import 'firestore.dart';
 class Auth with ChangeNotifier {
   final String _loginApi = 'signIn';
   final String _registerApi = 'SignUp';
+
   User _currentUser;
   Artist _artist = Artist();
 
@@ -718,6 +721,12 @@ class Auth with ChangeNotifier {
             Global.user = user;
           }
         }
+        FireIpaayos().insertModel(
+          id: user.id,
+          key: "id",
+          collectionName: "users",
+          model: user.toJson(),
+        );
         _currentUser = user;
         Global.currentUID = int.parse(_currentUser.id);
         notifyListeners();

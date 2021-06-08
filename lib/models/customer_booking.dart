@@ -18,6 +18,23 @@ class CustomerBooking with ChangeNotifier {
   int completePercentages;
   Map<String, String> invoice = {};
 
+  Map<String, dynamic> toJson() => {
+    'providerImage':artistImage,
+    'providerLocation':artistLocation,
+    'providerName':artistName,
+    'bookingDate':bookingDate,
+    'bookingTime':bookingTime,
+    'categoryName':categoryName,
+    'completePercentages':completePercentages,
+    'description':description,
+    'id':id,
+    'jobDone':jobDone,
+    'price':price,
+    'status':status,
+    'bookingType':bookingType,
+    'invoice':invoice,
+  };
+
   CustomerBooking({
     this.artistImage,
     this.artistLocation,

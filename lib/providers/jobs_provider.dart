@@ -10,6 +10,7 @@ import 'package:service_app/models/ticket.dart';
 import 'package:service_app/models/ticket_comment.dart';
 import '../models/notification.dart';
 import 'contants.dart';
+import 'firestore.dart';
 
 class JobProvider with ChangeNotifier {
   List<String> _images = [];
@@ -255,6 +256,14 @@ class JobProvider with ChangeNotifier {
           notifyListeners();
           break;
       }
+      bookings.forEach((booking) {
+        FireIpaayos().insertModel(
+            model: booking.toJson(),
+            collectionName: "bookings",
+            id: booking.id,
+            key: "id"
+        );
+      });
     } catch (err) {
       throw err;
     }
@@ -375,6 +384,14 @@ class JobProvider with ChangeNotifier {
           )
           .toList();
       _artistChats = chats;
+      _artistChats.forEach((providerChats) {
+        FireIpaayos().insertModel(
+            model: providerChats.toJson(),
+            collectionName: "provider_chats",
+            id: providerChats.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {
       throw err;
@@ -524,6 +541,14 @@ class JobProvider with ChangeNotifier {
           )
           .toList();
       _notifications = notificationsList;
+      _notifications.forEach((notification) {
+        FireIpaayos().insertModel(
+            model: notification.toJson(),
+            collectionName: "notifications",
+            id: notification.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {
       throw err;
@@ -558,6 +583,14 @@ class JobProvider with ChangeNotifier {
           )
           .toList();
       _tickets = ticketsList;
+      _tickets.forEach((support) {
+        FireIpaayos().insertModel(
+            model: support.toJson(),
+            collectionName: "supports",
+            id: support.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {
       throw err;
@@ -615,6 +648,14 @@ class JobProvider with ChangeNotifier {
           )
           .toList();
       _ticketComments = ticketsList;
+      _ticketComments.forEach((supportComments) {
+        FireIpaayos().insertModel(
+            model: supportComments.toJson(),
+            collectionName: "support_comments",
+            id: supportComments.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {}
   }

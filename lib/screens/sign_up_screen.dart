@@ -289,34 +289,37 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.only(
-                            left: 8.0,
-                            right: 8.0,
-                            top: 4.0,
-                            bottom: 4.0,
-                          ),
-                          child: TextFormField(
-                            controller: _codeController,
-                            validator: (value) {
-                              /*if (!value.isEmpty || value.length > 5) {
-                                return 'Please enter a valid code!';
-                              }*/
-                            },
-                            onSaved: (value) {
-                              _referralCode = value;
-                            },
-                            keyboardType: TextInputType.emailAddress,
-                            decoration: InputDecoration(
-                              labelText: 'Referral code',
-                              fillColor: Colors.white,
-                              border: OutlineInputBorder(
-                                borderSide: BorderSide(color: Theme.of(context).primaryColor, width: 2.0),
-                                borderRadius: BorderRadius.circular(25.0),
-                              ),
-                              focusedBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Theme.of(context).primaryColor, width: 2.0),
-                                borderRadius: BorderRadius.circular(25.0),
+                        Visibility(
+                          visible: false,
+                          child: Padding(
+                            padding: EdgeInsets.only(
+                              left: 8.0,
+                              right: 8.0,
+                              top: 4.0,
+                              bottom: 4.0,
+                            ),
+                            child: TextFormField(
+                              controller: _codeController,
+                              validator: (value) {
+                                /*if (!value.isEmpty || value.length > 5) {
+                                  return 'Please enter a valid code!';
+                                }*/
+                              },
+                              onSaved: (value) {
+                                _referralCode = value;
+                              },
+                              keyboardType: TextInputType.emailAddress,
+                              decoration: InputDecoration(
+                                labelText: 'Referral code',
+                                fillColor: Colors.white,
+                                border: OutlineInputBorder(
+                                  borderSide: BorderSide(color: Theme.of(context).primaryColor, width: 2.0),
+                                  borderRadius: BorderRadius.circular(25.0),
+                                ),
+                                focusedBorder: OutlineInputBorder(
+                                  borderSide: BorderSide(color: Theme.of(context).primaryColor, width: 2.0),
+                                  borderRadius: BorderRadius.circular(25.0),
+                                ),
                               ),
                             ),
                           ),

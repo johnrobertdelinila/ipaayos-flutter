@@ -23,6 +23,29 @@ class AppliedJob with ChangeNotifier {
   String userEemail;
   int rate;
 
+  Map<String, dynamic> toJson() => {
+    'artistId':artistId,
+    'categoryName':categoryName,
+    'createdAt':createdAt,
+    'description':description,
+    'id':id,
+    'jobDate':jobDate,
+    'jobId':jobId,
+    'jobTimestamp':jobTimestamp,
+    'price':price,
+    'status':status,
+    'time':time,
+    'title':title,
+    'updatedAt':updatedAt,
+    'userAddress':userAddress,
+    'userEemail':userEemail,
+    'userId':userId,
+    'userImage':userImage,
+    'userMobile':userMobile,
+    'userName':userName,
+    'rate':rate,
+  };
+
   AppliedJob({
     this.artistId,
     this.categoryName,

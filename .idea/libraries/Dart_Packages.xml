@@ -51,6 +51,27 @@
             </list>
           </value>
         </entry>
+        <entry key="cloud_firestore">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="cloud_firestore_platform_interface">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-2.2.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="cloud_firestore_web">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="collection">
           <value>
             <list>
@@ -607,6 +628,9 @@
       <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0/lib" />
       <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0/lib" />
       <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0/lib" />
+      <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4/lib" />
+      <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-2.2.1/lib" />
+      <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2/lib" />
       <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0/lib" />
       <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0/lib" />
       <root url="file://$USER_HOME$/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/eventify-0.1.4/lib" />

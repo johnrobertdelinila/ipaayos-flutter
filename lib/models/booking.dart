@@ -9,6 +9,17 @@ class Booking {
   String flag;
   String startTime;
 
+  Map<String, dynamic> toJson() => {
+    'address':address,
+    'bookingDate':bookingDate,
+    'bookingTime':bookingTime,
+    'description':description,
+    'id':id,
+    'userImage':userImage,
+    'userName':userName,
+    'startTime':startTime,
+  };
+
   Booking({
     this.address,
     this.bookingDate,

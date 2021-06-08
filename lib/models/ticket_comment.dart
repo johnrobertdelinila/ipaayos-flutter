@@ -7,6 +7,16 @@ class TicketComment {
   String createdAt;
   String userName;
 
+  Map<String, dynamic> toJson() => {
+    'comment':comment,
+    'createdAt':createdAt,
+    'id':id,
+    'role':role,
+    'ticketId':ticketId,
+    'userName':userName,
+    'userId':userId,
+  };
+
   TicketComment({
     this.comment,
     this.createdAt,

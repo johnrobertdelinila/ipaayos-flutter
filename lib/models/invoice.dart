@@ -25,6 +25,26 @@ class Invoice with ChangeNotifier {
   String address;
   String finalAmount;
 
+  Map<String, dynamic> toJson() => {
+    'address':address,
+    'providerAmount':artistAmount,
+    'providerId':artistId,
+    'providerImage':artistImage,
+    'providerName':artistName,
+    'bookingId':bookingId,
+    'bookingDate':bookingDate,
+    'categoryAmount':categoryAmount,
+    'categoryName':categoryName,
+    'createdAt':createdAt,
+    'discountAmount':discountAmount,
+    'id':id,
+    'invoiceId':invoiceId,
+    'paymentStatus':paymentStatus,
+    'totalAmount':totalAmount,
+    'workingMin':workingMin,
+    'finalAmount':finalAmount,
+  };
+
   Invoice({
     this.address,
     this.artistAmount,

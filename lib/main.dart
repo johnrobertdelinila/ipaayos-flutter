@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -134,6 +135,27 @@ class _MyAppState extends State<MyApp> {
     super.didChangeDependencies();
   }
 
+  Widget _fbInitializer(Widget page) {
+    final Future _fbApp = Firebase.initializeApp();
+
+    return FutureBuilder(
+      future: _fbApp,
+      builder: (context, snapshot) {
+        if(snapshot.hasError) {
+          print("Value: " + snapshot.toString());
+          print("You have an error! ${snapshot.error.toString()}");
+          return Text("Some went wrong");
+        }else if(snapshot.hasData) {
+          return page;
+        }else {
+          return Center(
+            child: CircularProgressIndicator(),
+          );
+        }
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
@@ -215,16 +237,16 @@ class _MyAppState extends State<MyApp> {
             TicketsScreen.routeName: (ctx) => TicketsScreen(),
             PhoneAuthScreen.routeName: (ctx) => PhoneAuthScreen(),
           },
-          home: auth.isAuth
+          home: _fbInitializer(auth.isAuth
               ? CustomDrawer(child: HomeScreen())
               : FutureBuilder(
-                  future: auth.tryAutoLogin(),
-                  builder: (ctx, authResultSnapshot) =>
-                      authResultSnapshot.connectionState ==
-                              ConnectionState.waiting
-                          ? SplashScreen()
-                          : ChooseUserScreen(),
-                ),
+            future: auth.tryAutoLogin(),
+            builder: (ctx, authResultSnapshot) =>
+            authResultSnapshot.connectionState ==
+                ConnectionState.waiting
+                ? SplashScreen()
+                : ChooseUserScreen(),
+          )),
         ),
       ),
     );

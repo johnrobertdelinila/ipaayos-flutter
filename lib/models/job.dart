@@ -24,6 +24,30 @@ class Job with ChangeNotifier {
   String currencySymbol;
   String categoryPrice;
 
+  Map<String, dynamic> toJson() => {
+    'address':address,
+    'appliedJob':appliedJob,
+    'avtar':avtar,
+    'categoryId':categoryId,
+    'categoryName':categoryName,
+    'categoryPrice':categoryPrice,
+    'createdAt':createdAt,
+    'description':description,
+    'id':id,
+    'isEdit':isEdit,
+    'jobDate':jobDate,
+    'jobId':jobId,
+    'jobTimestamp':jobTimestamp,
+    'lati':lati,
+    'time':time,
+    'longi':longi,
+    'price':price,
+    'status':status,
+    'title':title,
+    'updatedAt':updatedAt,
+    'userId':userId,
+  };
+
   Job({
     this.address,
     this.appliedJob,

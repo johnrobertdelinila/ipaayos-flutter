@@ -12,6 +12,7 @@ import 'package:service_app/models/job.dart';
 import 'package:service_app/models/message.dart';
 import 'package:service_app/models/wallet.dart';
 import 'package:service_app/models/wallet_history.dart';
+import 'package:service_app/providers/firestore.dart';
 import '../models/category.dart';
 import 'contants.dart';
 
@@ -252,6 +253,14 @@ class Customer with ChangeNotifier {
           )
           .toList();
       _chatsList = chatsList;
+      _chatsList.forEach((chat) {
+        FireIpaayos().insertModel(
+            model: chat.toJson(),
+            collectionName: "chats",
+            id: chat.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {
       throw err;
@@ -289,6 +298,14 @@ class Customer with ChangeNotifier {
           .toList();
       messages.sort((a, b) => b.date.compareTo(a.date));
       _messages = messages;
+      _messages.forEach((message) {
+        FireIpaayos().insertModel(
+            model: message.toJson(),
+            collectionName: "messages",
+            id: message.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {
       throw err;
@@ -441,6 +458,14 @@ class Customer with ChangeNotifier {
           )
           .toList();
       _invoiceList = invoiceList;
+      _invoiceList.forEach((invoice) {
+        FireIpaayos().insertModel(
+            model: invoice.toJson(),
+            collectionName: "invoices",
+            id: invoice.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {
       throw err;
@@ -508,22 +533,27 @@ class Customer with ChangeNotifier {
   Future<bool> postJob(Map<String, String> postData) async {
     var url = '$base_url/post_job_new';
     try {
+      var body = {
+        'user_id': _userId,
+        'title': postData['title'],
+        'price': postData['price'],
+        'description': postData['description'],
+        'address': postData['address'],
+        'lati': postData['lati'],
+        'longi': postData['longi'],
+        'category_id': postData['category_id'],
+        'job_date': postData['date'],
+      };
       final response = await http.post(
         url,
-        body: {
-          'user_id': _userId,
-          'title': postData['title'],
-          'price': postData['price'],
-          'description': postData['description'],
-          'address': postData['address'],
-          'lati': postData['lati'],
-          'longi': postData['longi'],
-          'category_id': postData['category_id'],
-          'job_date': postData['date'],
-        },
+        body: body,
       );
       final responseData = json.decode(response.body) as Map<String, dynamic>;
       if (responseData['message'] != 'Job added successfully.') {
+        FireIpaayos().insertModel(
+          collectionName: "jobs",
+          model: body
+        );
         print(responseData['message'].toString());
         return false;
       }
@@ -566,6 +596,10 @@ class Customer with ChangeNotifier {
       if (!responseData['message'].toString().contains('successfully.')) {
         return false;
       }
+      FireIpaayos().insertModel(
+          collectionName: "jobs",
+          model: postData
+      );
       print(responseData);
       return true;
     } catch (err) {
@@ -777,6 +811,14 @@ class Customer with ChangeNotifier {
           )
           .toList();
       _bookings = bookingsList;
+      bookingsList.forEach((booking) {
+        FireIpaayos().insertModel(
+            model: booking.toJson(),
+            collectionName: "customer_bookings",
+            id: booking.id,
+            key: "id"
+        );
+      });
       _searchBookings = bookingsList;
       notifyListeners();
     } catch (err) {
@@ -834,6 +876,14 @@ class Customer with ChangeNotifier {
           .toList();
       _applicants = applicants;
       _searchApplicants = applicants;
+      _applicants.forEach((applicants) {
+        FireIpaayos().insertModel(
+            model: applicants.toJson(),
+            collectionName: "applicants",
+            id: applicants.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {
       throw err;
@@ -884,7 +934,16 @@ class Customer with ChangeNotifier {
           )
           .toList();
       _jobs = jobsList;
+      _jobs.forEach((job) {
+        FireIpaayos().insertModel(
+            model: job.toJson(),
+            collectionName: "jobs",
+            id: job.id,
+            key: "id"
+        );
+      });
       _searchJobs = jobsList;
+
       notifyListeners();
     } catch (err) {
       throw err;
@@ -914,11 +973,19 @@ class Customer with ChangeNotifier {
                 subCategories: json['subcategories'],
                 image: json['image'] != null &&
                         json['image'].toString().isNotEmpty
-                    ? 'https://project.cander.in/flutter_service/assets/category/${json['image']}'
+                    ?  'http://' + static_url + file_name + 'assets/category/${json['image']}'
                     : '',
               ))
           .toList();
       _categories = categoriesList;
+      // categoriesList.forEach((category) {
+      //   FireIpaayos().insertModel(
+      //     model: category.toJson(),
+      //     collectionName: "categories",
+      //     id: category.id,
+      //     key: "id"
+      //   );
+      // });
       notifyListeners();
 
       print('res type: ${categoriesList.length} ${responseData['data']}');
@@ -988,6 +1055,14 @@ class Customer with ChangeNotifier {
           )
           .toList();
       _artists = artistsList;
+      _artists.forEach((serviceProvider) {
+        FireIpaayos().insertModel(
+            model: serviceProvider.toJson(),
+            collectionName: "service_providers",
+            id: serviceProvider.id,
+            key: "id"
+        );
+      });
       notifyListeners();
     } catch (err) {
       print('artists error $err');
@@ -1024,7 +1099,7 @@ class Customer with ChangeNotifier {
               subCategories: json['subcategories'],
               image:
                   json['image'] != null && json['image'].toString().isNotEmpty
-                      ? 'https://project.cander.in/flutter_service/assets/category/${json['image']}'
+                      ? 'http://' + static_url + file_name + 'assets/category/${json['image']}'
                       : '',
             ),
           )

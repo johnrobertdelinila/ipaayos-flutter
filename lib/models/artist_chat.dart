@@ -11,6 +11,20 @@ class ArtistChat {
   String userName;
   String userImage;
 
+  Map<String, dynamic> toJson() => {
+    'chatType':chatType,
+    'date':date,
+    'id':id,
+    'image':image,
+    'message':message,
+    'sendAt':sendAt,
+    'sendBy':sendBy,
+    'senderName':senderName,
+    'userId':userId,
+    'userName':userName,
+    'userImage':userImage,
+  };
+
   ArtistChat({
     this.chatType,
     this.date,

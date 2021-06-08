@@ -8,6 +8,17 @@ class Chat {
   String artistImage;
   String chatType;
 
+  Map<String, dynamic> toJson() => {
+    'artistId':artistId,
+    'artistImage':artistImage,
+    'artistName':artistName,
+    'chatType':chatType,
+    'date':date,
+    'id':id,
+    'message':message,
+    'sender':sender,
+  };
+
   Chat({
     this.artistId,
     this.artistImage,

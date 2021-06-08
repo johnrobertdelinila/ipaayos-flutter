@@ -6,6 +6,14 @@ class Category {
   String currency;
   String image;
 
+  Map<String, dynamic> toJson() => {
+    'id':id,
+    'name':name,
+    'price':price,
+    'subCategories':subCategories,
+    'image':image,
+  };
+
   Category({
     this.id,
     this.name,
