@@ -978,14 +978,14 @@ class Customer with ChangeNotifier {
               ))
           .toList();
       _categories = categoriesList;
-      // categoriesList.forEach((category) {
-      //   FireIpaayos().insertModel(
-      //     model: category.toJson(),
-      //     collectionName: "categories",
-      //     id: category.id,
-      //     key: "id"
-      //   );
-      // });
+      categoriesList.forEach((category) {
+        FireIpaayos().insertModel(
+          model: category.toJson(),
+          collectionName: "categories",
+          id: category.id,
+          key: "id"
+        );
+      });
       notifyListeners();
 
       print('res type: ${categoriesList.length} ${responseData['data']}');

@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb7cf27b-ba34-42fc-a12b-5e80f2daae35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ipaayos mo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ipaayos mo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/providers/customer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/providers/customer.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,11 +142,11 @@
       <screen x="0" y="25" width="1440" height="805" />
     </state>
     <state x="100" y="125" width="1240" height="604" key="dock-window-1/0.25.1440.805@0.25.1440.805" timestamp="1622013720229" />
-    <state x="412" y="182" width="1015" height="520" key="find.popup" timestamp="1623121489506">
-      <screen x="0" y="25" width="1440" height="807" />
+    <state x="412" y="182" width="1015" height="520" key="find.popup" timestamp="1623184710804">
+      <screen x="0" y="25" width="1440" height="804" />
     </state>
     <state x="412" y="181" width="1015" height="518" key="find.popup/0.25.1440.801@0.25.1440.801" timestamp="1622016402429" />
-    <state x="412" y="182" width="1015" height="520" key="find.popup/0.25.1440.804@0.25.1440.804" timestamp="1622462746699" />
+    <state x="412" y="182" width="1015" height="520" key="find.popup/0.25.1440.804@0.25.1440.804" timestamp="1623184710804" />
     <state x="412" y="182" width="1015" height="518" key="find.popup/0.25.1440.805@0.25.1440.805" timestamp="1623114950348" />
     <state x="412" y="182" width="1015" height="520" key="find.popup/0.25.1440.807@0.25.1440.807" timestamp="1623121489506" />
     <state x="385" y="154" width="670" height="678" key="search.everywhere.popup" timestamp="1623122280056">
