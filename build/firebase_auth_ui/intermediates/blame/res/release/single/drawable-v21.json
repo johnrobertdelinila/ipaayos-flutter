@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/tw__like_action.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/bde948cba9b7a15f73dd41b72434fd18/jetified-tweet-ui-3.3.0/res/drawable-v21/tw__like_action.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/fui_idp_button_background_google.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/12cc07299ce048f38a0d11a442218fbb/jetified-firebase-ui-auth-4.3.1/res/drawable-v21/fui_idp_button_background_google.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/fui_idp_button_background_facebook.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/12cc07299ce048f38a0d11a442218fbb/jetified-firebase-ui-auth-4.3.1/res/drawable-v21/fui_idp_button_background_facebook.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/fui_idp_button_background_github.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/12cc07299ce048f38a0d11a442218fbb/jetified-firebase-ui-auth-4.3.1/res/drawable-v21/fui_idp_button_background_github.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/fui_idp_button_background_twitter.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/12cc07299ce048f38a0d11a442218fbb/jetified-firebase-ui-auth-4.3.1/res/drawable-v21/fui_idp_button_background_twitter.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/fui_idp_button_background_email.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/12cc07299ce048f38a0d11a442218fbb/jetified-firebase-ui-auth-4.3.1/res/drawable-v21/fui_idp_button_background_email.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/fui_idp_button_background_phone.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/12cc07299ce048f38a0d11a442218fbb/jetified-firebase-ui-auth-4.3.1/res/drawable-v21/fui_idp_button_background_phone.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/drawable-v21/fui_idp_button_background_anonymous.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/12cc07299ce048f38a0d11a442218fbb/jetified-firebase-ui-auth-4.3.1/res/drawable-v21/fui_idp_button_background_anonymous.xml"
+    }
+]

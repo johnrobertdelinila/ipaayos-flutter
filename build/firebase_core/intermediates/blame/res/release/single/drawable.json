@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_core/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_core/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_core/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_core/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable/notification_bg.xml"
+    }
+]

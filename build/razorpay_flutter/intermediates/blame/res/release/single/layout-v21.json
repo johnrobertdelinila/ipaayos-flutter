@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/razorpay_flutter/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/razorpay_flutter/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/razorpay_flutter/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/razorpay_flutter/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/layout-v21/notification_action.xml"
+    }
+]

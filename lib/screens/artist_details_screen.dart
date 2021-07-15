@@ -216,7 +216,7 @@ class _ArtistDetailsScreenState extends State<ArtistDetailsScreen>
       ),
       appBar: AppBar(
         elevation: 0,
-        title: Text('Artist Profile'),
+        title: Text('Service Provider'),
         centerTitle: true,
         leading: IconButton(
           onPressed: () => Navigator.of(context).pop(),

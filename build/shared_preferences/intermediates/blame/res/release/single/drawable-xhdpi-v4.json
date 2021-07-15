@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/shared_preferences/intermediates/res/merged/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/shared_preferences/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/shared_preferences/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/shared_preferences/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/shared_preferences/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/7c508256c09d70a0d41d70ae98c72d23/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    }
+]

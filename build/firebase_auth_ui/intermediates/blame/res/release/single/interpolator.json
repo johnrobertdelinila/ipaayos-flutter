@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/interpolator/mtrl_linear.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/interpolator/mtrl_linear.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/interpolator/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/interpolator/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/interpolator/mtrl_fast_out_slow_in.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/interpolator/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/interpolator/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/interpolator/mtrl_fast_out_linear_in.xml"
+    }
+]

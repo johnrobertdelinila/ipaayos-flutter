@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_tabs_icon_color_selector_colored.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_tabs_icon_color_selector_colored.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_btn_bg_color_selector.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_btn_bg_color_selector.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_fab_ripple_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_fab_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_btn_ripple_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_btn_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_chip_text_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_chip_text_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/9c2391044ab81c00aaa2950c039048dd/play-services-base-17.1.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/9c2391044ab81c00aaa2950c039048dd/play-services-base-17.1.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_tint_edittext.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_chip_ripple_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_chip_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_bottom_nav_colored_item_tint.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_bottom_nav_colored_item_tint.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_text_btn_text_color_selector.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_text_btn_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_tint_spinner.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_chip_background_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_chip_background_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_btn_text_color_selector.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_btn_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_btn_stroke_color_selector.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_btn_stroke_color_selector.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_tabs_ripple_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_tabs_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_btn_text_btn_ripple_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_btn_text_btn_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_chip_close_icon_tint.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_chip_close_icon_tint.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_tint_default.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/com_facebook_send_button_text_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/89c39edad5a5f349636bab1d4f8648b2/jetified-facebook-share-5.5.1/res/color/com_facebook_send_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_bottom_nav_item_tint.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_bottom_nav_item_tint.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/design_error.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_tabs_colored_ripple_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_tabs_colored_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/design_tint_password_toggle.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/9c2391044ab81c00aaa2950c039048dd/play-services-base-17.1.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_tabs_icon_color_selector.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_tabs_icon_color_selector.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/com_facebook_button_text_color.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/bb2460de6ef7943918d5a42c27b41a4f/jetified-facebook-common-5.5.1/res/color/com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/mtrl_tabs_legacy_text_color_selector.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/83ae7b91d101470274959f9d0df2be6c/material-1.0.0/res/color/mtrl_tabs_legacy_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/johnrobertdelinila/AndroidStudioProjects/ipaayos mo/build/firebase_auth_ui/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/johnrobertdelinila/.gradle/caches/transforms-2/files-2.1/c6d0dca41742e26824abb0ea8c248b0b/appcompat-1.0.0/res/color/abc_hint_foreground_material_light.xml"
+    }
+]
